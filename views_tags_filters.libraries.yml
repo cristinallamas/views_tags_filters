@@ -1,0 +1,13 @@
+views_tags_filters.forms:
+   version: VERSION
+   css:
+     theme:
+       css/views_tags_filters.theme.css: {}
+
+views_tags_filters.enable:
+  version: VERSION
+  js:
+    js/views_tags_filters.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

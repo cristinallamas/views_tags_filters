@@ -1,0 +1,6 @@
+name: Views Tags Filters
+type: module
+description: 'Drupal 8 view alter to display filters as tags with ajax following the tutorial in http://leanderlindahl.se/en/filter-content-drupal-view-ajax/'
+package: Custom
+version: 8.x
+core: 8.x
