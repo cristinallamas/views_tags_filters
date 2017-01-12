@@ -20,4 +20,5 @@ Drupal 8 view alter to display filters as tags with ajax following the tutorial 
             }
         }
     ],
-    ```
+    
+
