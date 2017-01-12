@@ -4,7 +4,8 @@ Drupal 8 view alter to display filters as tags with ajax following the tutorial 
 ![img](http://leanderlindahl.se/wp-content/uploads/2015/09/Drupal8_dev-min.jpg)
 
 ## How to use with Composer
-  ```  "repositories": [
+  ```javascript  
+  "repositories": [
         {
             "type": "package",
             "package": {
@@ -18,4 +19,5 @@ Drupal 8 view alter to display filters as tags with ajax following the tutorial 
                 }
             }
         }
-    ],```
+    ],
+    ```
