@@ -1,10 +1,10 @@
 /**
  * Hide <select> and submit-button
  */
-#views-exposed-form-gallery-page-1 .form-type-select {
+#views-exposed-form-gallery-page-1 .js-form-type-select {
   display: none;
 }
-#views-exposed-form-gallery-page-1 .form-submit {
+#views-exposed-form-gallery-page-1 .js-form-submit {
   display: none;
 }
 

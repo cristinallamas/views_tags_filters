@@ -1,14 +1,13 @@
 <?php
 
-
-function views_tags_filters_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
-
+use Drupal\Core\Form\FormStateInterface;
+function views_tags_filters_form_alter(&$form, FormStateInterface $form_state) {
   /**
    * Apply the form_alter to a specific form #id
    * the form #id can be found through inspecting the markup
    */
-  var_dump($form);
-  exit();
+//  var_dump($form);
+//  exit();
   if($form['#id'] == 'views-exposed-form-gallery-page-1') {
     /**
      * Include a js and css, which was defined in popolo_custom.libraries.yml
